@@ -1,7 +1,6 @@
-<?php include("model/home.model.php"); ?>
-<?php include("nav.inc.php"); ?>
+<?php include("views/layout/nav.inc.php"); ?>
 <!-- Page Header-->
-<?php include("header.inc.php"); ?>
+<?php include("views/layout/header.inc.php"); ?>
 <!-- Main Content-->
 <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -65,5 +64,4 @@
     </div>
 </div>
 <!-- Footer-->
-<?php include("footer.inc.php"); ?>
-        
+<?php include("views/layout/footer.inc.php"); ?>
